@@ -1,19 +1,40 @@
 {
-  "name": "react-native-google-place-picker",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+  "_args": [
+    [
+      "react-native-google-place-picker@1.2.1",
+      "/home/kendal/monkeys-alarm"
+    ]
+  ],
+  "_from": "react-native-google-place-picker@1.2.1",
+  "_id": "react-native-google-place-picker@1.2.1",
+  "_inBundle": false,
+  "_integrity": "sha1-iwFNYBAvcjZODc9OxjgRwpH4Bwg=",
+  "_location": "/react-native-google-place-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-google-place-picker@1.2.1",
+    "name": "react-native-google-place-picker",
+    "escapedName": "react-native-google-place-picker",
+    "rawSpec": "1.2.1",
+    "saveSpec": null,
+    "fetchSpec": "1.2.1"
   },
-  "version": "1.2.2",
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-google-place-picker/-/react-native-google-place-picker-1.2.1.tgz",
+  "_spec": "1.2.1",
+  "_where": "/home/kendal/monkeys-alarm",
+  "author": {
+    "name": "q6112345"
+  },
+  "bugs": {
+    "url": "https://github.com/q6112345/react-native-google-place-picker/issues"
+  },
   "description": "React Native Wrapper of Google Place Picker for iOS + Android.",
-  "nativePackage": true,
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/q6112345/react-native-google-place-picker.git"
-  },
+  "homepage": "https://github.com/q6112345/react-native-google-place-picker#readme",
   "keywords": [
     "react-native",
     "ios",
@@ -27,16 +48,25 @@
     "place",
     "picker"
   ],
-  "author": "q6112345",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/q6112345/react-native-google-place-picker/issues"
+  "main": "index.js",
+  "name": "react-native-google-place-picker",
+  "nativePackage": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
-  "homepage": "https://github.com/q6112345/react-native-google-place-picker#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/q6112345/react-native-google-place-picker.git"
+  },
   "rnpm": {
     "commands": {
       "prelink": "node_modules/react-native-google-place-picker/bin/prepare.sh",
       "postlink": "node_modules/react-native-google-place-picker/bin/cocoapods.sh"
     }
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.1"
 }
